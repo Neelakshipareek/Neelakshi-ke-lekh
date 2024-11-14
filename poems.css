@@ -1,0 +1,115 @@
+.navbar{
+
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    
+}
+.navbar a{
+    color: #2e2d2b;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: color 0.3s ease;
+    font-weight: 400;
+}
+
+.navbar a: hover{
+    background-color: #ccc;
+    
+}
+
+body
+{
+   background-image: url("./images/bg6.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+background-attachment: fixed;
+   
+
+
+}
+body {
+    font-family: Arial, sans-serif;
+    
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    padding-left: 20%;
+    text-decoration:underline;
+}
+h3{
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: larger;
+    color: rgb(6, 57, 23);
+    padding-left: 40px;
+}
+ul {
+list-style-type: disc ;
+    padding left: 40px;
+    margin: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-size: 18px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+#poem-display {
+    margin-left: 30%;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+#poem-image {
+    border: 2px solid #ccc;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Poem Title Links */
+#poem-list a {
+    color: #622c2c; /* Light blue color for the links */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make the font bold */
+    transition: color 0.3s, text-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+#poem-list a:hover {
+    color: #0c7bbc; /* Darker blue color on hover */
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    #poem-list a {
+        font-size: 1.2em; /* Slightly larger font size for mobile */
+    }
+}
+
+
+footer{
+    background-color: rgba(255,248,220,0.8)
+    color: #4a4a4a;
+    margin-top: 30%;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    
+}
+
