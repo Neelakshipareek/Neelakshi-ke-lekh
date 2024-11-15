@@ -22,7 +22,7 @@
 
 body
 {
-   background-image: url("../images/bg6.jpg");
+   background-image: url("./bg6.jpg");
    background-repeat: no-repeat;
    background-size: cover;
 background-attachment: fixed;
